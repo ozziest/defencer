@@ -1,0 +1,24 @@
+{
+    "name": "ozziest/defencer",
+    "type": "package",
+    "description": "Defencer is a simple way to separate validation before method of repository.",
+    "keywords": ["solid", "validation", "repository", "separation"],
+    "homepage": "https://github.com/ozziest/defencer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Özgür Adem Işıklı",
+            "email": "i.ozguradem@gmail.com",
+            "role": "Creator & Designer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ozziest\\Defencer": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
